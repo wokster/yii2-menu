@@ -1,0 +1,22 @@
+{
+    "name": "wokster/yii2-menu",
+    "description": "Menu modul for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","menu"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksym Tymofeiev",
+            "email": "wokster@list.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "wokster/yii2-fontawesome-dropdown-widget": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wokster\\menu\\": ""
+        }
+    }
+}
